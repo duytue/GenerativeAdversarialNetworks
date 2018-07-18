@@ -14,7 +14,7 @@
 * Hinge loss
 * Two-timescale update rule
 * Self-attention [from *Non-local neural networks* - Wang et al 2018]: during generation of images, for each pixel, look around the image and see what the other pixels look like(i.e.: when generate eye, look for the other eye -> symmetric)   
-![self-attention](img/self_attention.img)   
+![self-attention](img/self_attention.png)   
     * We can focus attention on unusual part of an image
 
 ### Personalized GANufacturing
@@ -75,7 +75,6 @@
     * Image Dehazing [Cycle-Dehaze CVPRW 2018]
     * Unsupervised Motion Retargeting [CVPR 2018]
     * Beyond: Medical, voice conversion, Cryptography(CipherGAN), Robotics, NLP(machine translation, text style transfer)
-    * 
     * Multi-modality: Augmented CycleGAN
     * Style control: PairedCycleGAN
     * More than 2 domains: StarGAN
